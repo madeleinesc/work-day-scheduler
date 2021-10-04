@@ -2,16 +2,15 @@ body {
     font-size: 16px;
     line-height: 1;
   }
-  
-  textarea {
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #2d2d2b;
-    border-left: 1px solid #2d2d2b;
-    padding: 10px;
-  }
 
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: #2d2d2b;
+    border-radius: 0;
+    border-bottom: 10px solid #2d2d2b;
+  }
+  
   .display-3 {
     font-family: 'Abril Fatface', cursive;
     color: #2d2d2b;
@@ -22,18 +21,15 @@ body {
     color:#2d2d2b;
   }
   
-  .jumbotron {
-    text-align: center;
-    background-color: transparent;
-    color: #2d2d2b;
-    border-radius: 0;
-    border-bottom: 10px solid #2d2d2b;
+  #currentDay {
+    font-size: 25px;
   }
+    
   
   .description {
     white-space: pre-wrap;
   }
-  
+
   .time-block {
     display: flex;
     justify-content: center;
@@ -55,6 +51,15 @@ body {
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-weight:bold;
+  }
+
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #2d2d2b;
+    border-left: 1px solid #2d2d2b;
+    padding: 10px;
   }
   
   .past {
