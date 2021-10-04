@@ -7,21 +7,27 @@ body {
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
-    border-left: 1px solid black;
+    color: #2d2d2b;
+    border-left: 1px solid #2d2d2b;
     padding: 10px;
   }
 
-  h1 {
+  .display-3 {
     font-family: 'Abril Fatface', cursive;
+    color: #2d2d2b;
+  }
+
+  .lead {
+    font-family: 'Roboto', sans-serif;
+    color:#2d2d2b;
   }
   
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: #2d2d2b;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #2d2d2b;
   }
   
   .description {
@@ -41,8 +47,8 @@ body {
   
   .hour {
     background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    color: #2d2d2b;
+    border-top: 1px dashed #2d2d2b;
   }
   
   .past {
@@ -61,10 +67,10 @@ body {
   }
   
   .saveBtn {
-    border-left: 1px solid black;
+    border-left: 1px solid #2d2d2b;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06aed5;
+    background-color: #d0c9b5;
     color: white;
   }
   
