@@ -35,7 +35,9 @@ body {
   }
   
   .time-block {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .row {
@@ -45,26 +47,28 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: #eadad0;
     color: #2d2d2b;
     border-top: 1px solid #2d2d2b;
+    border-left: 1px solid #2d2d2b;
     text-align: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+    font-weight:bold;
   }
   
   .past {
-    background-color: #eadad0;
+    background-color: #a23419;
     color: #2d2d2b;
   }
   
   .present {
-    background-color: #7f423d;
+    background-color: #c6612b;
     color: #2d2d2b;
   }
   
   .future {
-    background-color: #a8ad97;
+    background-color: #a49375;
     color: #2d2d2b;
   }
   
