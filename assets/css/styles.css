@@ -1,24 +1,25 @@
 body {
     font-size: 16px;
     line-height: 1;
+    background-color: #e6baba;
   }
 
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: #e6baba;
     color: #2d2d2b;
     border-radius: 0;
-    border-bottom: 10px solid #2d2d2b;
+    border-bottom: 10px solid #6d1919;
   }
   
   .display-3 {
     font-family: 'Abril Fatface', cursive;
-    color: #2d2d2b;
+    color: #6d1919;
   }
 
   .lead {
     font-family: 'Roboto', sans-serif;
-    color:#2d2d2b;
+    color: #6d1919;
   }
   
   #currentDay {
@@ -43,7 +44,7 @@ body {
   }
   
   .hour {
-    background-color: #eadad0;
+    background-color: #e6baba;
     color: #2d2d2b;
     border-top: 1px solid #2d2d2b;
     border-left: 1px solid #2d2d2b;
@@ -54,7 +55,7 @@ body {
   }
 
   textarea {
-    background: transparent;
+    background: #eed2d2;
     border: none;
     resize: none;
     color: #2d2d2b;
@@ -80,7 +81,7 @@ body {
   .saveBtn {
     border-left: 1px solid #2d2d2b;
     font-family: 'Roboto', sans-serif;
-    background-color: #86b3d1;
+    background-color: #e6baba;
   }
 
   .sheduler {
