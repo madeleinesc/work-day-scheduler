@@ -13,8 +13,9 @@ $("#currentDay").text(currentDay);
 function updateTime() {
     var currentTime = moment().hours();
 
-$('.time-block').each(function () {
-    var hourTime = parseInt($(this).attr('id').split('-'[1]));
+// scheduler: user input area
+$('.scheduler').each(function () {
+    var hourTime = parseInt($(this).attr('id'));
 
     if(hourTime < currentTime) { // if timeblock is not the current time, then the color will show as past.
         $(this).addClass('past');
@@ -25,6 +26,9 @@ $('.time-block').each(function () {
         $(this).removeClass('past'); // if timeblock has not happened yet, then the color will show as future.
         $(this).removeClass('present');
         $(this).addClass('future');
+
+        console.log(hourTime)
+        console.log(currentTime)
     }
 });
 }
