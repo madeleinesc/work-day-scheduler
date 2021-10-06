@@ -36,23 +36,15 @@ function updateTime() {
 updateTime();
 
 
-// storing and retrieving user input events
-
-
-
-// to retrieve saved event data from local storage
-// use JSON, parse, signitify to store and retrieve
-
-// click event 
-// data attr .data?
-// in local storage make a separete thing for every hour block (to do)
-
-
+// save button function 
 $('.saveBtn').on("click", function () {
-   var time = $(this).siblings(".scheduler").attr("id");
-   var text = $(this).siblings(".scheduler").val();
-   console.log(time, text)
-   localStorage.setItem(time, text);
+    var time = $(this).siblings(".scheduler").attr("id");
+    var text = $(this).siblings(".scheduler").val();
+    console.log(time, text)
+    // storing user input
+    localStorage.setItem(time, text);
+    // retrieving user input
+    localStorage.getItem(time, text);
 });
 
 
