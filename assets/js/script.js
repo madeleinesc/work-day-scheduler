@@ -49,25 +49,12 @@ updateTime();
 
 
 $('.saveBtn').on("click", function () {
-    localStorage.setItem("9:00am", ($scheduler.val()))
-    localStorage.setItem("10:00am", ($scheduler.val()))
-    localStorage.setItem("11:00am", ($scheduler.val()))
-    localStorage.setItem("12:00pm", ($scheduler.val()))
-    localStorage.setItem("1:00pm", ($scheduler.val()))
-    localStorage.setItem("2:00pm", ($scheduler.val()))
-    localStorage.setItem("3:00pm", ($scheduler.val()))
-    localStorage.setItem("4:00pm", ($scheduler.val()))
-    localStorage.setItem("5:00pm", ($scheduler.val()))
-})
+   var time = $(this).siblings(".scheduler").attr("id");
+   var text = $(this).siblings(".scheduler").val();
+   console.log(time, text)
+   localStorage.setItem(time, text);
+});
 
-$("#scheduler").append(localStorage.getItem("9:00am"));
-$("#scheduler").append(localStorage.getItem("10:00am"));
-$("#scheduler").append(localStorage.getItem("11:00am"));
-$("#scheduler").append(localStorage.getItem("12:00pm"));
-$("#scheduler").append(localStorage.getItem("1:00pm"));
-$("#scheduler").append(localStorage.getItem("2:00pm"));
-$("#scheduler").append(localStorage.getItem("3:00pm"));
-$("#scheduler").append(localStorage.getItem("4:00pm"));
-$("#scheduler").append(localStorage.getItem("5:00pm"));
+
 
 
