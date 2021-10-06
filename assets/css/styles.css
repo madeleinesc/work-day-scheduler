@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
     line-height: 1;
-    background-color: #e6baba;
+    background-color: #eed2d2;
   }
 
   .jumbotron {
@@ -44,8 +44,8 @@ body {
   }
   
   .hour {
-    background-color: #e6baba;
-    color: #2d2d2b;
+    background-color: #dea5a4;
+    color: #6d1919;
     border-top: 1px solid #2d2d2b;
     border-left: 1px solid #2d2d2b;
     text-align: center;
@@ -55,7 +55,7 @@ body {
   }
 
   textarea {
-    background: #eed2d2;
+    background: transparent;
     border: none;
     resize: none;
     color: #2d2d2b;
@@ -64,24 +64,28 @@ body {
   }
   
   .past {
-    background-color: #a23419;
+    background-color: #e6baba;
     color: #2d2d2b;
   }
   
   .present {
-    background-color: #c6612b;
+    background-color: #ac3834 ;
     color: #2d2d2b;
   }
   
   .future {
-    background-color: #a49375;
+    background-color: #881d1d;
     color: #2d2d2b;
   }
   
+  i {
+    color: #6d1919;
+  }
+    
   .saveBtn {
     border-left: 1px solid #2d2d2b;
     font-family: 'Roboto', sans-serif;
-    background-color: #e6baba;
+    background-color: #dea5a4;
   }
 
   .sheduler {
