@@ -6,7 +6,7 @@ body {
 }
 
 /* HEADER/JUMBOTRON */
-/* properties for jumbotron/header */
+/* properties for header/jumbotron */
 .jumbotron {
   text-align: center;
   background-color: #e6baba;
@@ -15,7 +15,7 @@ body {
   border-bottom: 10px solid #6d1919;
 }
   
-/* main header */
+/* main title */
 .display-3 {
   font-family: 'Abril Fatface', cursive;
   color: #6d1919;
@@ -36,6 +36,7 @@ body {
   white-space: pre-wrap;
 }
 
+/* ------------------------------------------------------- */
 
 /* MAIN SECTION/PLANNER */
 /* the block housing the hour of the day */
@@ -45,7 +46,7 @@ body {
   align-items: center;
 }
 
-/* rows holding all of the user's event inputs */
+/* rows housing the scheduler */
 .row {
   white-space: pre-wrap;
   height: 80px;
@@ -87,13 +88,13 @@ textarea {
     color: #2d2d2b;
   }
 
-/* color of the textarea if the time of day is in the future */
+/* color of the textarea if the time of day is in future */
 .future {
   background-color: #b94543;
   color: #2d2d2b;
 }
 
-/* save button is italicised */
+/* save title is italicised */
 i {
   color: #6d1919;
 }
@@ -112,7 +113,7 @@ i {
 }
 
 /* transition and font size */
-/* that will happen when user hovers over the button to save their input */
+/* will happen when user hovers over the button to save their input */
   .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
