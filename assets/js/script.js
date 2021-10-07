@@ -5,16 +5,16 @@ var currentDay = moment().format("dddd, MMMM Do");
 // display current date and time in the jumbotron
 $("#currentDay").text(currentDay);
 
-// function to retrieve stored user input 
+
+// MAIN SCHEDULER
+// function to retrieve stored previous user input 
 function storedText () {
-    for (var i = 9; i <= 17; i++) {
+    for (var i = 9; i <= 17; i++) { // i for time-blocks in 24h time
         $("#" + i).val(localStorage.getItem(i));
     }
 }
-
+// call function
 storedText();
-
-// MAIN SCHEDULER
 
 // function to check what time-block we are in:
 // past, present, future
@@ -25,13 +25,13 @@ function updateTime() {
     $('.scheduler').each(function () {
         var hourTime = parseInt($(this).attr('id'));
 
-        if (hourTime < currentTime) { // if timeblock is not the current time, then the color will show as past.
+        if (hourTime < currentTime) { // if timeblock is not the current time, then the color will show as pale pink representing past.
             $(this).addClass('past');
-        } else if (hourTime === currentTime) { // if timeblock is current time, then the color will show as present.
+        } else if (hourTime === currentTime) { // if timeblock is current time, then the color will show as mid pink to show present.
             $(this).removeClass('past');
             $(this).addClass('present');
-        } else {
-            $(this).removeClass('past'); // if timeblock has not happened yet, then the color will show as future.
+        } else { // if timeblock has not happened yet, then the color will show darker pink to show the future.
+            $(this).removeClass('past'); 
             $(this).removeClass('present');
             $(this).addClass('future');
 
@@ -40,7 +40,7 @@ function updateTime() {
         }
     });
 }
-
+// call function
 updateTime();
 
 

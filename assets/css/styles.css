@@ -1,98 +1,118 @@
+/* properties for main body of page */
 body {
-    font-size: 16px;
-    line-height: 1;
-    background-color: #eed2d2;
-  }
+  font-size: 16px;
+  line-height: 1;
+  background-color: #eed2d2;
+}
 
-  .jumbotron {
-    text-align: center;
-    background-color: #e6baba;
-    color: #2d2d2b;
-    border-radius: 0;
-    border-bottom: 10px solid #6d1919;
-  }
+/* HEADER/JUMBOTRON */
+/* properties for jumbotron/header */
+.jumbotron {
+  text-align: center;
+  background-color: #e6baba;
+  color: #2d2d2b;
+  border-radius: 0;
+  border-bottom: 10px solid #6d1919;
+}
   
-  .display-3 {
-    font-family: 'Abril Fatface', cursive;
-    color: #6d1919;
-  }
+/* main header */
+.display-3 {
+  font-family: 'Abril Fatface', cursive;
+  color: #6d1919;
+}
 
-  .lead {
-    font-family: 'Roboto', sans-serif;
-    color: #6d1919;
-  }
+/* subtitle */
+.lead {
+  font-family: 'Roboto', sans-serif;
+  color: #6d1919;
+}
   
-  #currentDay {
-    font-size: 25px;
-  }
+/* current date and day of the week */
+#currentDay {
+  font-size: 25px;
+}
     
-  
-  .description {
-    white-space: pre-wrap;
-  }
+.description {
+  white-space: pre-wrap;
+}
 
-  .time-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid #6d1919;
-  }
-  
-  .hour {
-    background-color: #dea5a4;
-    color: #6d1919;
-    border-top: 1px solid #6d1919;
-    border-left: 1px solid #6d1919;
-    border-right: 1px solid #6d1919;
-    text-align: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight:bold;
-  }
 
-  textarea {
-    background: transparent;
-    border: 1px solid #6d1919;
-    resize: none;
-    color: #6d1919;
-    border-left: 1px solid #6d1919;
-    padding: 10px;
-  }
+/* MAIN SECTION/PLANNER */
+/* the block housing the hour of the day */
+.time-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* rows holding all of the user's event inputs */
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid #6d1919;
+}
   
-  .past {
-    background-color: #e6baba;
-    color: #2d2d2b;
-  }
+/* properties of the hour of the day */
+.hour {
+  background-color: #dea5a4;
+  color: #6d1919;
+  border-top: 1px solid #6d1919;
+  border-left: 1px solid #6d1919;
+  border-right: 1px solid #6d1919;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+/* text area for user input */
+textarea {
+  background: transparent;
+  border: 1px solid #6d1919;
+  resize: none;
+  color: #6d1919;
+  border-left: 1px solid #6d1919;
+  padding: 10px;
+}
   
-  .present {
+/* color of the textarea if the time of day has passed */
+.past {
+  background-color: #e6baba;
+  color: #2d2d2b;
+}
+  
+/* color of the textarea if the time of day is current */
+.present {
     background-color: #d07f7e ;
     color: #2d2d2b;
   }
-  
-  .future {
-    background-color: #b94543;
-    color: #2d2d2b;
-  }
-  
-  i {
-    color: #6d1919;
-  }
-    
-  .saveBtn {
-    border-left: 1px solid #6d1919;
-    font-family: 'Roboto', sans-serif;
-    background-color: #dea5a4;
-  }
 
-  .sheduler {
-    font-family: 'Roboto', sans-serif;
-  }
-  
+/* color of the textarea if the time of day is in the future */
+.future {
+  background-color: #b94543;
+  color: #2d2d2b;
+}
+
+/* save button is italicised */
+i {
+  color: #6d1919;
+}
+    
+/* save button properties */
+.saveBtn {
+  border-left: 1px solid #6d1919;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  background-color: #dea5a4;
+}
+
+/* font of the user input */
+.sheduler {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* transition and font size */
+/* that will happen when user hovers over the button to save their input */
   .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
