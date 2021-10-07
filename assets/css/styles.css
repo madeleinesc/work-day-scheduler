@@ -40,14 +40,15 @@ body {
   .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid #2d2d2b;
+    border-top: 1px solid #6d1919;
   }
   
   .hour {
     background-color: #dea5a4;
     color: #6d1919;
-    border-top: 1px solid #2d2d2b;
-    border-left: 1px solid #2d2d2b;
+    border-top: 1px solid #6d1919;
+    border-left: 1px solid #6d1919;
+    border-right: 1px solid #6d1919;
     text-align: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
@@ -56,10 +57,10 @@ body {
 
   textarea {
     background: transparent;
-    border: none;
+    border: 1px solid #6d1919;
     resize: none;
-    color: #2d2d2b;
-    border-left: 1px solid #2d2d2b;
+    color: #6d1919;
+    border-left: 1px solid #6d1919;
     padding: 10px;
   }
   
@@ -69,12 +70,12 @@ body {
   }
   
   .present {
-    background-color: #ac3834 ;
+    background-color: #d07f7e ;
     color: #2d2d2b;
   }
   
   .future {
-    background-color: #881d1d;
+    background-color: #b94543;
     color: #2d2d2b;
   }
   
@@ -83,7 +84,7 @@ body {
   }
     
   .saveBtn {
-    border-left: 1px solid #2d2d2b;
+    border-left: 1px solid #6d1919;
     font-family: 'Roboto', sans-serif;
     background-color: #dea5a4;
   }
