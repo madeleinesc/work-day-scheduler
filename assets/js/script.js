@@ -5,6 +5,13 @@ var currentDay = moment().format("dddd, MMMM Do");
 // display current date and time in the jumbotron
 $("#currentDay").text(currentDay);
 
+// NEED TO DO A FOR LOOP WITH GETITEM
+
+function storedText () {
+    for (vari = 9; i <= 17; i++) {
+        $("#" + i).val(localStorage.getItem(i));
+    }
+}
 
 // MAIN SCHEDULER
 
