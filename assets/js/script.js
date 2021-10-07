@@ -7,7 +7,7 @@ $("#currentDay").text(currentDay);
 
 // function to retrieve stored user input 
 function storedText () {
-    for (vari = 9; i <= 17; i++) {
+    for (var i = 9; i <= 17; i++) {
         $("#" + i).val(localStorage.getItem(i));
     }
 }
