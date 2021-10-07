@@ -30,7 +30,7 @@ function updateTime() {
         } else if (hourTime === currentTime) { // if timeblock is current time, then the color will show as mid pink to show present.
             $(this).removeClass('past');
             $(this).addClass('present');
-        } else { // if timeblock has not happened yet, then the color will show darker pink to show the future.
+        } else { // if timeblock has not happened yet, then the color will show dark pink to show the future.
             $(this).removeClass('past'); 
             $(this).removeClass('present');
             $(this).addClass('future');
