@@ -7,9 +7,9 @@ $("#currentDay").text(currentDay);
 
 
 // MAIN SCHEDULER
-// function to retrieve stored previous user input 
+// function to retrieve stored previous user inputs 
 function storedText () {
-    for (var i = 9; i <= 17; i++) { // i for time-blocks in 24h time
+    for (var i = 9; i <= 17; i++) { // i for time-blocks in 24h time(#id)
         $("#" + i).val(localStorage.getItem(i));
     }
 }
