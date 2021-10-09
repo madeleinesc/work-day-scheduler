@@ -37,7 +37,7 @@ css color codes from left to right: #6d1919, #b94543, #d07f7e, #dea5a4, #e6baba,
 
 
 Below is my final work day scheduler:
-![screencapture of what my work day scheduler looks like](./assets/images/scheduler.png)
+![screencapture of what my work day scheduler looks like](./assets/images.schedulermockup.png)
 
 * When opened in a browser, it will update the day and date so it is always current. 
 
