@@ -5,6 +5,7 @@ var currentDay = moment().format("dddd, MMMM Do");
 // display current date and time in the jumbotron
 $("#currentDay").text(currentDay);
 
+// ----------------------------------------------------------
 
 // MAIN SCHEDULER
 // function to retrieve stored previous user inputs 
