@@ -30,6 +30,8 @@ body {
 /* current date and day of the week */
 #currentDay {
   font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Abril Fatface', cursive;
 }
     
 .description {
